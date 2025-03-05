@@ -51,7 +51,7 @@ class Shelly:
             "id": request_id,
             "src": self._device_id,
             "dst": "unknown",
-            "result": {
+            "params": {
                 "a_act_power": a,
                 "b_act_power": b,
                 "c_act_power": c,
